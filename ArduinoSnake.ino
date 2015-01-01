@@ -75,6 +75,8 @@ void handleFood(){
 }
 
 void show(){
+  //TODO: LED-matrix
+  //for now, send board over serial monitor
   for(int i = 0; i < 10;  ++i){
     Serial.println();
   }
